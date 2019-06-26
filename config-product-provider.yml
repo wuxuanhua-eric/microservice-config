@@ -1,6 +1,6 @@
 ﻿spring: 
   profiles: 
-    name: dev
+    name: prod
 ---
 server:
   port: 8001
