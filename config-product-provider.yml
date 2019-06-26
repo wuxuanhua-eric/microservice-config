@@ -1,6 +1,6 @@
 ﻿spring: 
   profiles: 
-    name: prod
+    name: dev
 ---
 server:
   port: 8001
@@ -11,7 +11,7 @@ mybatis:
 spring:
   profiles: dev
   application:
-    name: microservice-product
+    name: microservice-product-bus
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
